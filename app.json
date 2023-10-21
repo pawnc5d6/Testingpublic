@@ -1,24 +1,17 @@
 {
-  "name": "Checker Bot",
+  "name": "RoodChecker Bot",
   "description": "Telegram Bot deployed on Heroku",
-  "repository": "https://github.com/pawnc5d6/Testingpublic",
-  "env": {
-    "BOT_TOKEN": {
-      "description": "Telegram bot token",
-      "required": false
-    }
-  },
+  "repository": "https://github.com/pawnc5d6/Checker",
   "scripts": {
     "start": "python main.py"
   },
-"buildpacks": [
-  {
-    "url": "heroku/python",
-    "stack": "heroku-20",
-    "config": {
-      "python_version": "3.8.12"
+  "buildpacks": [
+    {
+      "url": "heroku/python",
+      "stack": "heroku-20",
+      "config": {
+        "python_version": "3.8.12"
+      }
     }
-  }
-]
-
+  ]
 }
