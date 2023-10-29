@@ -10,8 +10,8 @@ from GATEAU import Tele
 from colorama import Fore
 sto = {"stop":True}
 dollar=10
-token = "6461957936:AAGPezi35DES_Ia7-AwtCrNTud3zjbIAh18"
-id =  2092103173
+token = "6776091474:AAGGHBYuPCWtGs-_BpqznIDXFv8kp4z5LWM"
+id = [2092103173, 2037533465]
 bot=telebot.TeleBot(token,parse_mode="HTML")
 @bot.message_handler(commands=["stop"])
 def start(message):
